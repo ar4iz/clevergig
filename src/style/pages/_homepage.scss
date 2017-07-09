@@ -30,22 +30,22 @@ header{
         height: 25px;
         transition: $transition-base;
 
-        &:hover {
-          opacity: 1;
-        }
-        &:before, &:after {
-          position: absolute;
-          content: ' ';
-          height: 25px;
-          width: 2px;
-          background-color: $white;
-        }
-        &:before {
-          transform: rotate(45deg);
-        }
-        &:after {
-          transform: rotate(-45deg);
-        }
+          &:hover {
+            opacity: 1;
+          }
+          &:before, &:after {
+            position: absolute;
+            content: ' ';
+            height: 25px;
+            width: 2px;
+            background-color: $white;
+          }
+          &:before {
+            transform: rotate(45deg);
+          }
+          &:after {
+            transform: rotate(-45deg);
+          }
       }
 
       & p {
@@ -221,7 +221,6 @@ header{
 
 }
 
-
 .default_slider {
   &.comments {
     padding-top: 110px;
@@ -352,11 +351,6 @@ header{
   }
 }
 
-
-
-
-
-
 .left-col hr {
   width: 70px;
   height: 1px;
@@ -365,8 +359,6 @@ header{
   align: left;
   margin-left: 0;
 }
-
-
 
 .testimonial {
   background: url("../img/block-3.jpg") center no-repeat;
@@ -718,12 +710,8 @@ header{
         margin-top: 50px;
       }
     }
-
-
   }
 }
-
-
 
 .partners {
   background: #f6f6f6;
@@ -855,8 +843,7 @@ footer {
           text-align: center;
         }
       }
-
-    }
+}
 
 
 

@@ -15,21 +15,4 @@ $(".default_slider").slick({
   pauseOnHover: false
 });
 
-/*
-// set position for underline
-$(".thumb_slider").on('beforeChange', function(event, slick, currentSlide, nextSlide){
-
-  setTimeout(function () {
-    var activeElement = document.querySelector(".thumb-slider-dots .slick-dots .slick-active");
-    var activeElementLeft = activeElement.offsetLeft;
-    var activeElementTop = activeElement.offsetTop;
-    var activeElementWidth = activeElement.offsetWidth;
-    var activeElementHeight = activeElement.offsetHeight;
-
-    $('.underline').css({'left': activeElementLeft, 'width': activeElementWidth, 'top': activeElementHeight + activeElementTop})
-  }, 100)
-
-});
-*/
-
 
