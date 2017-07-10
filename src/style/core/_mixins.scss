@@ -12,6 +12,11 @@
 }
 
 // Media mixin
+@mixin mobile-sm () {
+  @media (max-width: 420px) {
+    @content;
+  }
+}
 @mixin mobile () {
   @media (max-width:767px) {
     @content;
